@@ -1,0 +1,43 @@
+Features of Kubernetes
+
+Automatic bin packing
+It is about packaging of containers in bins (servers) in more effiecent way.
+
+Service discovery and load balancing
+
+Kubernetes wrap one or more containers into a high level structure called pod.
+Many pods with same set of functions are wrapped inside a service. With this system, kubernetes can control the network and load balance it.
+
+Storage orchestration
+Containers inside pod need to store data. Each pod has a storage volume. Each storage volume is shared across all the containers in that pod.
+
+Self healing
+
+If container fails-----> restart the container
+If node dies-----------> replaces and reschedule the containers in othe node
+If container does not 
+respond to user health
+check----------------------->kills the container
+
+Automated rollout and rollback
+Kubernetes takes care of deploying changes in application or its configuration
+or revert the changes and restore it to previous state automatically without any down time.
+
+Secret and Configuration management
+
+Secret is a sensitive data such as password, Secret is a kubernetes object that seperates sensitive data  from pods and container. Config Map is a kubernetes object that seperates configuration data from pods and container.
+
+Batch execution
+Kubernetes supports batch execution, long running jobs and replaces failed containers
+
+Horizontal scaling
+In kubernetes, we can scale up or scale down containers 
+--using commands
+--using dashboard
+--automatically based on CPU usage
+
+
+
+
+
+

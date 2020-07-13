@@ -1,0 +1,30 @@
+Architecture of Kubernates
+Cluster:
+A cluster comprises of Master node who manages one more worker nodes.
+
+There can be multiple clusters in kubernetes architecture.
+
+Nodes and Pods
+
+Node can be a physical machine or a virtual machine.
+
+Inside a node, we can have pod. there can be one or more pods in a node.
+
+Pod contains one or more docker containers.
+
+Master node 
+It has four components
+1.APIServer
+2.Scheduler
+3.Controller manager
+4.Etcd-open source distributed key-value pair database
+
+Worker node
+It has three components
+1.Kubelet
+2.Kube-proxy
+3.Container runtime--docker container
+
+
+
+

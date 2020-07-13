@@ -1,0 +1,23 @@
+What is Kubernetes?
+Kubernetes is a container management/orchestration tool. It is used when our application is distributed in multiple containers.Its job is to monitor, scale and restart the containers automatically even if they spread across multiple nodes.
+
+It is developed by Google Lab and donated to CNCF-Cloud Native Computing Foundation
+
+Now it is a open source.
+
+Container management activities
+1.Deploy
+2.Schedule
+3.Scale
+4.Load balancing
+
+Docker--it will create containers
+Kubernetes-manage containers
+
+Features of Kubernetes
+1.Automatic bin packing
+2.Service discovery and load balancing
+3.Storage archestration
+4.Self healing
+
+
